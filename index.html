@@ -1,0 +1,18 @@
+<html>
+	<head>		
+		<!-- <link href="node_modules/spectre.css/dist/spectre.min.css" rel="stylesheet" /> -->
+		<link href="style.css" rel="stylesheet" />
+	</head>	
+	<body>
+		<div id="app" class="container">
+			<h1>Westworld Timeline</h1>
+			<div>
+				<episode-selector v-model="episode" :seasons="timeline.seasons"></episode-selector>
+			</div>			
+			<timeline :timeline="timeline" :episode="episode" />
+		</div>		
+	</body>		
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="timeline.js" ></script>
+	<script src="index.js" ></script>
+</html>
