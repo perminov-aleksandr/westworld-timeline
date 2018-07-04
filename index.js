@@ -2,7 +2,7 @@
 
 Vue.component('timeline', {
 	props: ['timeline', 'episode'],
-	template: `<div class="timeline">
+	template: `<div class="timeline" id="timeline">
 		<timeline-event-group v-for="eventGroup in timeline.eventGroups" 
 							  :group="eventGroup" 
 							  :seasons="timeline.seasons" 
@@ -64,6 +64,7 @@ Vue.component('timeline-event', {
 Vue.component('episode-selector', {
 	props: ['value', 'seasons'],
 	template: `<div class="episode-selector">
+			<h3>Select last viewed episode</h3>
 			<div class="episode-selector-season" v-for="(season, seasonIndex) in seasons">
 				<h3>Season {{season.number}}</h3>
 				<div class="episode-selector-episodes">
@@ -92,6 +93,16 @@ var app = new Vue({
 				seasonNumber: 1,
 				episodeNumber: 1
 			}
+		}
+	},
+	watch: {
+		episode() {
+			this.scrollToTimeline();
+		}
+	},
+	methods: {
+		scrollToTimeline() {
+			//document.getElementById("timeline").scrollIntoView();
 		}
 	}
 });
