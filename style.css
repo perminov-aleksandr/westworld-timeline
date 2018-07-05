@@ -159,7 +159,7 @@ h3 {
 	padding-bottom: 10px;
 	box-sizing: content-box;	
 	position: relative;	
-	transition: transform var(--transition-duration);
+	transition: all var(--transition-duration);
 }
 
 .timeline-event:hover {
@@ -219,9 +219,8 @@ h3 {
 	z-index: 2;
 	transition: all var(--transition-duration);
 }
-.timeline-event:hover:before {	
-	border: 3px solid var(--light);
-	background-color: var(--lightgrey);	
+.timeline-event:hover:before {
+
 }
 
 .timeline-event-image {
@@ -268,8 +267,8 @@ h3 {
 .timeline-event:hover:nth-child(2n) {
 	transform: translateX(10px);
 }
-.timeline-event:hover:nth-child(2n)::before {
-	transform: translateX(-11px);
+.timeline-event:hover:nth-child(2n)::before {	
+	transform: scale(1.2) translateX(-8px);
 }
 
 .timeline-event:nth-child(2n+1) {
@@ -282,7 +281,7 @@ h3 {
 	transform: translateX(-10px);
 }
 .timeline-event:hover:nth-child(2n+1):before {
-	transform: translateX(11px);
+	transform: scale(1.2) translateX(8px);
 }
 
 .timeline-event:nth-child(2n+1) .timeline-event-text {	
@@ -303,10 +302,12 @@ h3 {
 /*--------------------------------------------------ANIMATIONS-------------------------------------------------*/
 
 .appear-enter-active, .appear-active { 
-	transition: opacity var(--transition-duration);
+	transition: all var(--transition-duration);
+	/* max-height: 300px; */
 }
 
 .appear-enter, .appear-leave-to {
 	opacity: 0;
+	/* max-height: 0; */
 }
 

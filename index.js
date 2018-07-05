@@ -17,12 +17,13 @@ Vue.component('timeline-event-group', {
 				{{group.timeMark}}
 			</p>
 			<div class="timeline-group-container">
-				<template v-for="(event, index) in displayedEvents">
-					<transition name="appear">						
-						<timeline-event :event="event" 
+				<template v-for="(event, index) in group.events">
+					
+						<timeline-event v-show="showEvent(event)"
+										:event="event" 
 										:seasons="seasons" 
 										:class="{ 'highlighted' : highlight(event) }" />
-					</transition>
+					
 				</template>
 			</div>
 		</div>`,
@@ -49,7 +50,7 @@ Vue.component('timeline-event-group', {
 
 Vue.component('timeline-event', {
 	props: ['event', 'seasons'],
-	template: `<div class="timeline-event">
+	template: `<transition name="appear"><div class="timeline-event">
 			<div v-if="event.imgName" class="timeline-event-image">
 				<img :src="'images/' + event.imgName" />
 			</div>
@@ -58,7 +59,7 @@ Vue.component('timeline-event', {
 				Episode <b>{{event.episodeNumber}}</b>
 			</label>
 			<p class="timeline-event-text">{{event.text}}</p>
-		</div>`	
+		</div></transition>`	
 });
 
 Vue.component('episode-selector', {
