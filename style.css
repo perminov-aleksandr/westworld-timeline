@@ -219,12 +219,10 @@ h3 {
 	z-index: 2;
 	transition: all var(--transition-duration);
 }
-.timeline-event:hover:before {
-
-}
 
 .timeline-event-image {
 	display: block;		
+	max-height: 200px;	
 	transition: all var(--transition-duration);
 }
 
@@ -232,6 +230,7 @@ h3 {
 	display: block;
 	width: 100%;
 	height: auto;
+	max-height: 200px;
 	margin: 5px 0;
 	margin-top: -100px;
 	border-radius: var(--border-radius);	
