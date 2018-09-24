@@ -1,0 +1,53 @@
+@media (max-width: 1048px) {
+    #app {
+        width: 100%;
+        min-width: 320px;
+    }
+
+    .episode-selector-season {
+        display: block;
+        width: unset;
+    }
+
+    .timeline-event {
+        width: unset;        
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .timeline-event:nth-child(2n+1),
+    .timeline-event:nth-child(2n)
+     {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 2%;
+        padding-right: 0;
+    }
+
+    .timeline-event:nth-child(2n+1) .timeline-event-episode,
+    .timeline-event:nth-child(2n+1) .timeline-event-text {
+        text-align: left;
+    }
+
+    .timeline-event:nth-child(2n+1):before {
+        left: -6px;
+    }
+
+    .timeline-group-container:after {
+        left: 0;
+    }
+
+    
+    .timeline-event-image {
+        max-height: unset;        
+    }
+    .timeline-event-image img {
+        max-height: unset;      
+        margin-top: unset;
+    }    
+
+
+    .timeline-group-timemark {
+        font-size: 4em;
+    }
+}
