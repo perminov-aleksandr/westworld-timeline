@@ -5,10 +5,17 @@
 		<link href="style.css" rel="stylesheet" />
 		
 		<link href="style.mobile.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
 	</head>	
 	<body>
 		<div id="app" class="container">
-			<h1>Westworld Timeline</h1>
+			<div class="header">
+				<div class="header-wrapper">
+					<div class="header__logo"></div>
+					<h1 class="header__text">Westworld</h1>
+					<div class="header__text-timeline">Timeline</div>
+				</div>
+			</div>			
 			<div>
 				<episode-selector v-model="episode" :seasons="timeline.seasons" @input="scrollToTimeline"></episode-selector>
 			</div>			
