@@ -51,25 +51,38 @@ body {
 	position: relative;
 }
 
+.header:after {
+	width: var(--border-width);
+	height: 50%;
+	background-color: var(--light);
+	display: block;
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: -1;
+}
+
 .header-wrapper {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	background-color: var(--bg);	
 }
 
 .header__logo {
 	background-image: url('./images/ww_logo_1color.png');
 	background-size: contain;
 	background-repeat: no-repeat;	
-	width: 60px;	
-	height: 60px;
+	width: 120px;	
+	height: 120px;
 	margin: auto;
 }
 
 .header__text {	
 	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-size: 3rem;
 	letter-spacing: 0.8rem;
 }
@@ -82,16 +95,6 @@ body {
 	font-size: 2rem;
 	letter-spacing: 0.4rem;
 	position: relative;
-}
-.header__text-timeline::after {
-	content: "";
-	display: block;
-	height: 300%;
-	width: 1px;
-	background-color: var(--light);
-	position: absolute;
-	bottom: -300%;
-	left: 50%;
 }
 
 h1 {
@@ -158,10 +161,13 @@ h3 {
 	padding-bottom: 10px;
 }
 
-.episode-selector-episodes .btn {		
-	min-width: 3rem;
-	margin: 0.5%;
-	box-sizing: border-box;
+.episode-selector-episodes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.episode-selector-episodes .btn {
+	flex: 1 1;
 }
 
 .timeline {
@@ -213,6 +219,7 @@ h3 {
 	padding-bottom: 10px;
 	box-sizing: content-box;	
 	position: relative;	
+	z-index: 2;
 	transition: all var(--transition-duration);
 }
 
@@ -288,7 +295,7 @@ h3 {
 	max-height: 200px;
 	margin: 5px 0;
 	border-radius: var(--border-radius);	
-	border: 1px solid var(--darkgrey);
+	/* border: 1px solid var(--darkgrey); */
 	filter: brightness(85%);
 	transition: all var(--transition-duration);
 	box-shadow: var(--shadow);
