@@ -50,22 +50,22 @@ Vue.component('timeline-event-group', {
 
 Vue.component('timeline-event', {
 	props: ['event', 'seasons'],
-	template: `<transition name="appear"><div class="timeline-event">
-			<div v-if="event.imgName" class="timeline-event-image">
-				<img :src="'images/' + event.imgName" />
-			</div>
+	template: `<transition name="appear"><div class="timeline-event">			
 			<label class="timeline-event-episode">
 				Season <b>{{event.seasonNumber}}</b>
 				Episode <b>{{event.episodeNumber}}</b>
 			</label>
 			<p class="timeline-event-text">{{event.text}}</p>
+			<div v-if="event.imgName" class="timeline-event-image">
+				<img :src="'images/' + event.imgName" />
+			</div>
 		</div></transition>`	
 });
 
 Vue.component('episode-selector', {
 	props: ['value', 'seasons'],
 	template: `<div class="episode-selector">
-			<h3>Select last viewed episode</h3>
+			<h3>Select last seen episode</h3>
 			<div class="episode-selector-season" v-for="(season, seasonIndex) in seasons">
 				<h3>Season {{season.number}}</h3>
 				<div class="episode-selector-episodes">
