@@ -1,0 +1,5 @@
+@media (max-width: 320px) {
+    #app {
+        min-width: 320px;
+    }
+}
