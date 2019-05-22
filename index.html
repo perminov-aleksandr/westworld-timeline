@@ -1,28 +1,18 @@
 <html>
-	<head>		
-		<title>Westworld Interactive Timeline</title>		
-		
-		<link href="style.css" rel="stylesheet" />
-		
-		<link href="style.mobile.css" rel="stylesheet" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
-	</head>	
-	<body>
-		<div id="app" class="container">
-			<div class="header">
-				<div class="header-wrapper">
-					<div class="header__logo"></div>
-					<h1 class="header__text">Westworld</h1>
-					<div class="header__text-timeline">Timeline</div>
-				</div>
-			</div>			
-			<div>
-				<episode-selector v-model="episode" :seasons="timeline.seasons" @input="scrollToTimeline"></episode-selector>
-			</div>			
-			<timeline :timeline="timeline" :episode="episode" />
-		</div>		
-	</body>		
-	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-	<script src="timeline.js" ></script>
-	<script src="index.js" ></script>
+
+<head>
+    <title>Westworld Interactive Timeline</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="style.mobile.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+
+<body>
+    <div id="app"></div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="timeline.js"></script>
+<script src="index.js"></script>
+
 </html>
