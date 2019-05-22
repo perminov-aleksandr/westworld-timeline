@@ -101,7 +101,7 @@ var app = new Vue({
             <div class="header__text-timeline">Timeline</div>
         </div>
         <episode-selector v-model="episode" :seasons="timeline.seasons" @input="scrollToTimeline" />
-        <timeline :timeline="timeline" :episode="episode" />
+        <timeline id="timeline" :timeline="timeline" :episode="episode" />
     </div>`,
     components: {
         Timeline,
@@ -111,8 +111,8 @@ var app = new Vue({
         return {
             timeline: window.timeline,
             episode: {
-                seasonNumber: 1,
-                episodeNumber: 1
+                seasonNumber: 0,
+                episodeNumber: 0
             }
         }
     },
@@ -123,7 +123,7 @@ var app = new Vue({
     },
     methods: {
         scrollToTimeline() {
-            //document.getElementById("timeline").scrollIntoView();
+            document.getElementById("timeline").scrollIntoView();
         }
     }
 });
