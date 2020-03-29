@@ -75,7 +75,7 @@ var timeline = {
         {
           seasonNumber: 1,
           episodeNumber: 10,
-          text: "Arnolds arranges the massacre of hosts and his suicide"
+          text: "Arnold arranges the massacre of hosts and his suicide"
         },
         {
           seasonNumber: 2,
@@ -85,7 +85,7 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 8,
-          text: "Akecheta starts becoming consious and drawing the maze pattern"
+          text: "Akecheta starts becoming conscious and drawing the maze pattern"
         },
         {
           seasonNumber: 2,
@@ -126,7 +126,7 @@ var timeline = {
         {
           seasonNumber: 1,
           episodeNumber: 10,
-          text: "William becomes dellusioned and transforms into Man in Black"
+          text: "William becomes delusional and transforms into Man in Black"
         },
         {
           seasonNumber: 1,
@@ -141,7 +141,7 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 8,
-          text: "Akecheta finds Logan and learns abut the ouside world"
+          text: "Akecheta finds Logan and learns abut the outside world"
         },
         {
           seasonNumber: 2,
@@ -167,7 +167,7 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 2,
-          text: "William merries Jukiet and they have a daughter, Emily"
+          text: "William marries Juliet and they have a daughter, Emily"
         }
       ]
     },
@@ -195,7 +195,7 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 7,
           text:
-            "*Logan dies from drug overdose six monthes after confronting Delos for a final time"
+            "*Logan dies from drug overdose six months after confronting Delos for a final time"
         },
         {
           seasonNumber: 2,
@@ -281,12 +281,12 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 8,
           text:
-            "*Ford tells Akecheta that Deathbringer (aka Dolores) will kill him"
+            "Ford tells Akecheta that Deathbringer (aka Dolores) will kill him"
         },
         {
           seasonNumber: 2,
           episodeNumber: 4,
-          text: "*William visits version 149 of Host-James"
+          text: "William visits version 149 of Host-James"
         }
       ]
     },
@@ -328,7 +328,7 @@ var timeline = {
           seasonNumber: 1,
           episodeNumber: 8,
           text:
-            "Charlotte tells Lee to stash Forge descryption key to Abernathy"
+            "Charlotte tells Lee to stash Forge decryption key to Abernathy"
         },
         {
           seasonNumber: 1,
@@ -381,17 +381,17 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 1,
-          text: "Bernard works with Charlotter to find Abernathy"
+          text: "Bernard works with Charlotte to find Abernathy"
         },
         {
           seasonNumber: 2,
           episodeNumber: 2,
-          text: "Maeve reenters Delos fascility to look for her daughter"
+          text: "Maeve reenters Delos facility to look for her daughter"
         },
         {
           seasonNumber: 2,
           episodeNumber: 1,
-          text: "Dolores begins planto dominate the world"
+          text: "Dolores begins plan to dominate the world"
         },
         {
           seasonNumber: 2,
@@ -445,7 +445,7 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 5,
-          text: "Dolores changes Teddy`s core personality to be more aggresive"
+          text: "Dolores changes Teddy`s core personality to be more aggressive"
         },
         {
           seasonNumber: 2,
@@ -499,7 +499,7 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 7,
-          text: "Akecheta takes Maeve`s daiughter to protect her"
+          text: "Akecheta takes Maeve`s daughter to protect her"
         },
         {
           seasonNumber: 2,
@@ -510,12 +510,12 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 7,
           text:
-            "Ford merges his consciousness with Berbard`s mind inside the Cradle"
+            "Ford merges his consciousness with Bernard's mind inside the Cradle"
         },
         {
           seasonNumber: 2,
           episodeNumber: 7,
-          text: "Bernard meaves Cradle and sends Elsie away"
+          text: "Bernard leaves Cradle and sends Elsie away"
         },
         {
           seasonNumber: 2,
@@ -526,7 +526,7 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 7,
           text:
-            "Dolores removes Abernaty control`s unit from his body and takes it with her"
+            "Dolores removes Abernathy control`s unit from his body and takes it with her"
         },
         {
           seasonNumber: 2,
@@ -557,13 +557,13 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 8,
           text:
-            "Akecheta promises Maeve via mesh network to protect her daighter in their camp"
+            "Akecheta promises Maeve via mesh network to protect her daughter in their camp"
         },
         {
           seasonNumber: 2,
           episodeNumber: 9,
           text:
-            "Emily brings William to rally point. He believes she`s a host conrolled by Ford"
+            "Emily brings William to rally point. He believes she`s a host controlled by Ford"
         },
         {
           seasonNumber: 2,
@@ -611,7 +611,7 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 10,
           text:
-            "Charlotte and Delos tema take Clementine to the Door so she can reprogram hosts"
+            "Charlotte and Delos team take Clementine to the Door so she can reprogram hosts"
         },
         {
           seasonNumber: 2,
@@ -655,7 +655,7 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 10,
-          text: "Charlotte kills Elsie in map rtoom as Bernard watches"
+          text: "Charlotte kills Elsie in map room as Bernard watches"
         },
         {
           seasonNumber: 2,
@@ -667,12 +667,12 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 10,
           text:
-            "Bernards builds a copy of Charlotte`s body and puts Dolores` pearl inside"
+            "Bernard builds a copy of Charlotte`s body and puts Dolores` pearl inside"
         },
         {
           seasonNumber: 2,
           episodeNumber: 10,
-          text: "Dolores kills the real Charlotte and begins impersonatin her"
+          text: "Dolores kills the real Charlotte and begins impersonating her"
         },
         {
           seasonNumber: 2,
@@ -755,13 +755,13 @@ var timeline = {
         {
           seasonNumber: 2,
           episodeNumber: 10,
-          text: "Dolores puts Tedy`s pearl into the Valley Beyond"
+          text: "Dolores puts Teddy`s pearl into the Valley Beyond"
         },
         {
           seasonNumber: 2,
           episodeNumber: 10,
           text:
-            "Dolores transfers the Valley Beyond data to a hidden satilite location"
+            "Dolores transfers the Valley Beyond data to a hidden satellite location"
         },
         {
           seasonNumber: 2,
@@ -778,7 +778,7 @@ var timeline = {
           seasonNumber: 2,
           episodeNumber: 10,
           text:
-            "Dolores goes to Arnold`s old home and prints new bodfies for herself and Bernard"
+            "Dolores goes to Arnold`s old home and prints new bodies for herself and Bernard"
         },
         {
           seasonNumber: 2,
@@ -800,7 +800,7 @@ var timeline = {
       ]
     },
     {
-      timeMark: "Unkown date in far future",
+      timeMark: "Unknown date in far future",
       events: [
         {
           seasonNumber: 2,
