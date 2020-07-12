@@ -78,7 +78,7 @@ body {
 }
 
 .header__logo {
-    background-image: url('./images/ww_logo_1color.png');
+    background-image: url('./images/logo.svg');
     background-size: contain;
     background-repeat: no-repeat;	
     width: 120px;	
